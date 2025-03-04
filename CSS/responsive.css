@@ -1,0 +1,1045 @@
+@media only screen and (min-width:1024px) and (max-width:1250px) {
+
+    /*****~ Start Header Section *****/
+    .navbar-mid {
+        margin: 0px 20px;
+    }
+
+    .sub-menu {
+        width: 900px;
+    }
+
+    /*****~ End Header Section *****/
+
+
+    /*****! Start Banner Section *****/
+    .banner-main {
+        margin: 0px 20px;
+    }
+
+    /*****! End Banner Section *****/
+
+
+    /*****& Start Banner Down Box Section *****/
+    .banner-down-box {
+        margin: 0px 20px;
+    }
+
+    .banner-down-box-1>.content>h1 {
+        font-size: 16px;
+    }
+
+    .banner-down-box-1>.content>p {
+        font-size: 14px;
+    }
+
+    /*****& End Banner Down Box Section *****/
+
+
+    /****** Start Top India Holiday Section *****/
+    .india-holiday-main {
+        margin: 0px 20px;
+        margin-top: 20px;
+    }
+
+    /****** End Top India Holiday Section *****/
+
+
+    /*****? Start Top Internationl Holiday  Section *****/
+    .international-holiday-main {
+        margin: 40px 20px 0px 20px;
+    }
+
+    /*****? End Top Internationl Holiday  Section *****/
+
+
+    /*****~ Start Travel Themes Section *****/
+    .travel-theme-main {
+        margin: 40px 20px 20px 20px;
+    }
+
+    /*****~ End Travel Themes Section *****/
+
+
+    /*****! Start Top Picks Section *****/
+    .top-pick-main-mid {
+        margin: 0px 20px;
+    }
+
+    /*****! End Top Picks Section *****/
+
+
+    /*****& Start Best Sellers Section *****/
+    .best-seller-main {
+        margin: 0px 20px;
+    }
+
+    /*****& End Best Sellers Section *****/
+
+
+    /****** Start Blog Post Section *****/
+    .blog-post-mid {
+        margin: 0px 20px;
+    }
+
+    /****** End Blog Post Section *****/
+
+
+    /*****? Start FAQ Section *****/
+    .faq-mid {
+        margin: 0px 20px;
+    }
+
+    /*****? End FAQ Section *****/
+
+
+    /*****~ Start Footer Section *****/
+    .footer-mid {
+        margin: 0px 20px;
+        margin-top: 30px;
+    }
+
+    .footer-box-1>h1 {
+        font-size: 20px;
+    }
+
+    /*****~ End Footer Section *****/
+}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    /*****~ Start Header Section *****/
+    .navbar-mid {
+        margin: 0px 20px;
+    }
+
+    .sub-menu {
+        width: 700px;
+    }
+
+    .sub-menu-col-1>.row-1>h1 {
+        margin-bottom: 0px;
+    }
+
+    .sub-menu-col-1>.row-1 {
+        margin-bottom: 10px;
+    }
+
+    .sub-menu-col-1>.row-1>ul>li>a,
+    .sub-menu-col-1>.row-2>ul>li>a,
+    .sub-menu-col-2>.row-1>ul>li>a,
+    .sub-menu-col-3>.row-1>ul>li>a,
+    .sub-menu-col-3>.row-2>ul>li>a,
+    .sub-menu-col-4>.row-1>ul>li>a,
+    .sub-menu-col-4>.row-2>ul>li>a {
+        font-size: 12px;
+    }
+
+    /*****~ End Header Section *****/
+
+
+    /*****! Start Banner Section *****/
+    .banner-main {
+        margin: 0px 20px;
+        height: 50vh;
+    }
+
+    .banner-img-1>h1 {
+        font-size: 25px;
+    }
+
+    .banner-img-1>.search-box>input {
+        width: 400px;
+    }
+
+    .banner-img-2>button {
+        padding: 5px;
+    }
+
+    .banner-img-2>h1 {
+        font-size: 20px;
+    }
+
+    .banner-img-2>p {
+        font-size: 14px;
+    }
+
+    /*****! End Banner Section *****/
+
+
+    /*****& Start Banner Down Box Section *****/
+    .banner-down-box {
+        margin: 0px 20px;
+    }
+
+    .banner-down-box-1>.content>h1 {
+        font-size: 12px;
+    }
+
+    .banner-down-box-1>.content>p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .banner-down-box-1>.img>figure>img {
+        width: 50px;
+    }
+
+    /*****& End Banner Down Box Section *****/
+
+
+    /****** Start Top India Holiday Section *****/
+    .india-holiday-main {
+        margin: 0px 20px;
+        margin-top: 20px;
+    }
+
+
+    .india-holiday-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /****** End Top India Holiday Section *****/
+
+
+    /*****? Start Top Internationl Holiday  Section *****/
+    .international-holiday-main {
+        margin: 40px 20px 0px 20px;
+    }
+
+    /*****? End Top Internationl Holiday  Section *****/
+
+
+    /*****~ Start Travel Themes Section *****/
+    .travel-theme-main {
+        margin: 40px 20px 20px 20px;
+    }
+
+    #travel-theme>h1 {
+        font-size: 20px;
+    }
+
+    /*****~ End Travel Themes Section *****/
+
+
+    /*****! Start Top Picks Section *****/
+    .top-pick-main-mid {
+        margin: 0px 20px;
+    }
+
+    .top-pick-inner-box-1 {
+        flex-basis: 48%;
+    }
+
+    /*****! End Top Picks Section *****/
+
+
+    /*****& Start Best Sellers Section *****/
+    .best-seller-main {
+        margin: 0px 20px;
+    }
+
+    .up-content>h1 {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    .best-seller-card-1>button,
+    .best-seller-card-2>button,
+    .best-seller-card-3>button {
+        margin-top: 10px;
+    }
+
+    /*****& End Best Sellers Section *****/
+
+
+    /****** Start Blog Post Section *****/
+    .blog-post-mid {
+        margin: 0px 20px;
+    }
+
+    .blog-post-card-1>.blog-content>h1 {
+        font-size: 20px;
+    }
+
+    .blog-post-card-1>.blog-content>p {
+        font-size: 15px;
+    }
+
+    /****** End Blog Post Section *****/
+
+
+    /*****? Start FAQ Section *****/
+    .faq-mid {
+        margin: 0px 20px;
+    }
+
+    /*****? End FAQ Section *****/
+
+
+    /*****~ Start Footer Section *****/
+    .footer-mid {
+        margin: 0px 20px;
+        margin-top: 30px;
+    }
+
+    .footer-box-1>h1 {
+        font-size: 15px;
+    }
+
+    .footer-box-1>ul>li>a {
+        font-size: 12px;
+    }
+
+    .accept>h1 {
+        font-size: 10px;
+    }
+
+    .accept>figure>img {
+        width: 30px;
+    }
+
+    .accept>figure:hover::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright>p {
+        font-size: 10px;
+    }
+
+    .follow {
+        gap: 15px;
+    }
+
+    .follow>h1 {
+        font-size: 10px;
+    }
+
+    /*****~ End Footer Section *****/
+}
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+    /*****~ Start Header Section *****/
+    .navbar-mid {
+        margin: 0px 20px;
+    }
+
+    .nav-logo>figure>img {
+        width: 120px;
+    }
+
+    .nav-link {
+        position: absolute;
+        top: 0;
+        left: -1000px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+        background-color: #ccc;
+        padding-top: 50px;
+        padding-left: 20px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+
+    .nav-link>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+    }
+
+    .nav-link>span {
+        position: absolute;
+        top: 12px;
+        color: rgb(92, 28, 75);
+        font-size: 30px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar-mid>.nav-link>span {
+        display: block;
+    }
+
+    .show-modal {
+        left: 0 !important;
+    }
+
+    .nav-link>ul>li {
+        display: flex;
+    }
+
+    .navbar-mid>.hamburgar>i {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        right: 10px;
+        font-size: 20px;
+        color: rgb(92, 28, 75);
+    }
+
+    .navbar-mid>.nav-logo {
+        display: flex;
+        z-index: 10;
+        align-items: center;
+    }
+
+    /*****~ End Header Section *****/
+
+
+    /*****! Start Banner Section *****/
+    .banner-main {
+        margin: 0px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-img-1 {
+        width: 100%;
+        flex-basis: 48%;
+    }
+
+    .banner-img-1>h1 {
+        font-size: 20px;
+    }
+
+    .banner-img-1>.search-box>input {
+        width: 300px;
+        text-overflow: ellipsis;
+    }
+
+    .banner-img-2 {
+        width: 100%;
+        flex-basis: 48%;
+    }
+
+    .banner-img-2>button {
+        padding: 5px;
+    }
+
+    .banner-img-2>h1 {
+        font-size: 20px;
+    }
+
+    .banner-img-2>p {
+        font-size: 14px;
+    }
+
+    /*****! End Banner Section *****/
+
+
+    /*****& Start Banner Down Box Section *****/
+    .banner-down-box {
+        margin: 0px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-down-box-1 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .banner-down-box-1>.content>h1 {
+        font-size: 12px;
+    }
+
+    .banner-down-box-1>.content>p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .banner-down-box-1>.img>figure>img {
+        width: 50px;
+    }
+
+    /*****& End Banner Down Box Section *****/
+
+
+    /****** Start Top India Holiday Section *****/
+    .india-holiday-main {
+        margin: 0px 20px;
+        margin-top: 20px;
+    }
+
+
+    .india-holiday-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /****** End Top India Holiday Section *****/
+
+
+    /*****? Start Top Internationl Holiday  Section *****/
+    .international-holiday-main {
+        margin: 40px 20px 0px 20px;
+    }
+
+    .international-holiday-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*****? End Top Internationl Holiday  Section *****/
+
+
+    /*****~ Start Travel Themes Section *****/
+    .travel-theme-main {
+        margin: 40px 20px 20px 20px;
+    }
+
+    #travel-theme>h1 {
+        font-size: 20px;
+    }
+
+    .travel-theme-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*****~ End Travel Themes Section *****/
+
+
+    /*****! Start Top Picks Section *****/
+    .top-pick-main-mid {
+        margin: 0px 20px;
+    }
+
+    .top-pick-inner-box-1 {
+        flex-basis: 48%;
+    }
+
+    /*****! End Top Picks Section *****/
+
+
+    /*****& Start Best Sellers Section *****/
+    .best-seller-main {
+        margin: 0px 20px;
+    }
+
+    .up-content>h1 {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    .best-seller-card-1>button,
+    .best-seller-card-2>button,
+    .best-seller-card-3>button {
+        margin-top: 10px;
+    }
+
+    .best-seller-card-1 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .best-seller-card-2 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .best-seller-card-3 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    /*****& End Best Sellers Section *****/
+
+
+    /****** Start Blog Post Section *****/
+    .blog-post-mid {
+        margin: 0px 20px;
+    }
+
+    .blog-post-card-1>.blog-content>h1 {
+        font-size: 20px;
+    }
+
+    .blog-post-card-1>.blog-content>p {
+        font-size: 15px;
+    }
+
+    .blog-post-card-1 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    /****** End Blog Post Section *****/
+
+
+    /*****? Start FAQ Section *****/
+    .faq-mid {
+        margin: 0px 20px;
+    }
+
+    .que-parts>.que>.question>p {
+        font-size: 18px;
+    }
+
+    /*****? End FAQ Section *****/
+
+
+    /*****~ Start Footer Section *****/
+    .footer-mid {
+        margin: 0px 20px;
+        margin-top: 30px;
+    }
+
+    .footer-box-1 {
+        flex: 1 1 calc(48% - 10px);
+    }
+
+    .footer-box-1>h1 {
+        font-size: 15px;
+    }
+
+    .footer-box-1>ul>li>a {
+        font-size: 12px;
+    }
+
+    .copyright-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .accept>h1 {
+        font-size: 10px;
+    }
+
+    .accept>figure>img {
+        width: 30px;
+    }
+
+    .accept>figure:hover::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright>p {
+        font-size: 10px;
+    }
+
+    .follow {
+        gap: 15px;
+    }
+
+    .follow>h1 {
+        font-size: 10px;
+    }
+
+    /*****~ End Footer Section *****/
+}
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+
+    /*****~ Start Header Section *****/
+    .navbar-mid {
+        margin: 0px 20px;
+    }
+
+    .nav-logo>figure>img {
+        width: 120px;
+    }
+
+    .nav-link {
+        position: absolute;
+        top: 0;
+        left: -1000px;
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ccc;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+
+    .nav-link>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .nav-link>span {
+        position: absolute;
+        top: 12px;
+        color: rgb(92, 28, 75);
+        font-size: 30px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar-mid>.nav-link>span {
+        display: block;
+    }
+
+    .show-modal {
+        left: 0 !important;
+    }
+
+    .nav-link>ul>li {
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar-mid>.hamburgar>i {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        right: 10px;
+        font-size: 20px;
+        color: rgb(92, 28, 75);
+    }
+
+    .navbar-mid>.nav-logo {
+        display: flex;
+        z-index: 10;
+        align-items: center;
+    }
+
+    /*****~ End Header Section *****/
+
+
+    /*****! Start Banner Section *****/
+    .banner-main {
+        margin: 0px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-img-1 {
+        width: 100%;
+        flex-basis: 48%;
+    }
+
+    .banner-img-1>h1 {
+        font-size: 16px;
+    }
+
+    .banner-img-1>.search-box>input {
+        width: 100%;
+        text-overflow: ellipsis;
+    }
+
+    .banner-img-1>.search-box {
+        width: 90%;
+    }
+
+    .banner-img-2 {
+        width: 100%;
+        flex-basis: 48%;
+    }
+
+    .banner-img-2>button {
+        padding: 5px;
+    }
+
+    .banner-img-2>h1 {
+        font-size: 20px;
+    }
+
+    .banner-img-2>p {
+        font-size: 14px;
+    }
+
+    /*****! End Banner Section *****/
+
+
+    /*****& Start Banner Down Box Section *****/
+    .banner-down-box {
+        margin: 0px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-down-box-1 {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .banner-down-box-1>.content>h1 {
+        font-size: 12px;
+    }
+
+    .banner-down-box-1>.content>p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .banner-down-box-1>.img>figure>img {
+        width: 50px;
+    }
+
+    /*****& End Banner Down Box Section *****/
+
+
+    /****** Start Top India Holiday Section *****/
+    .india-holiday-main {
+        margin: 0px 20px;
+        margin-top: 20px;
+    }
+
+
+    .india-holiday-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .india-holiday-main>h1 {
+        font-size: 20px;
+    }
+
+    /****** End Top India Holiday Section *****/
+
+
+    /*****? Start Top Internationl Holiday  Section *****/
+    .international-holiday-main {
+        margin: 40px 20px 0px 20px;
+    }
+
+    .international-holiday-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .international-holiday-main>h1 {
+        font-size: 20px;
+    }
+
+    /*****? End Top Internationl Holiday  Section *****/
+
+
+    /*****~ Start Travel Themes Section *****/
+    .travel-theme-main {
+        margin: 40px 20px 20px 20px;
+    }
+
+    .travel-theme-main>h1 {
+        font-size: 20px;
+    }
+
+    #travel-theme>h1 {
+        font-size: 20px;
+    }
+
+    .travel-theme-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*****~ End Travel Themes Section *****/
+
+
+    /*****! Start Top Picks Section *****/
+    .top-pick-main-mid {
+        margin: 0px 20px;
+    }
+
+    .top-pick-inner {
+        gap: 20px;
+    }
+
+    .top-pick-inner-box-1 {
+        flex-basis: 100%;
+    }
+
+    /*****! End Top Picks Section *****/
+
+
+    /*****& Start Best Sellers Section *****/
+    .best-seller-main {
+        margin: 0px 20px;
+    }
+
+    .best-seller-main>h1 {
+        font-size: 20px;
+    }
+
+    .up-content>h1 {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+
+    .best-seller-card-1>button,
+    .best-seller-card-2>button,
+    .best-seller-card-3>button {
+        margin-top: 10px;
+    }
+
+    .best-seller-card-1 {
+        flex-basis: 100%;
+    }
+
+    .best-seller-card-2 {
+        flex-basis: 100%;
+    }
+
+    .best-seller-card-3 {
+        flex-basis: 100%;
+    }
+
+    /*****& End Best Sellers Section *****/
+
+
+    /****** Start Blog Post Section *****/
+    .blog-post-mid {
+        margin: 0px 20px;
+    }
+
+    .blog-post-mid>h1 {
+        font-size: 20px;
+    }
+
+    .blog-post-mid>p {
+        font-size: 15px;
+    }
+
+    .blog-post-mid>p>span>a {
+        font-size: 15px;
+    }
+
+    .blog-post-cards {
+        gap: 15px;
+    }
+
+    .blog-post-card-1>.blog-content>h1 {
+        font-size: 15px;
+    }
+
+    .blog-post-card-1>.blog-content>p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .blog-post-card-1 {
+        flex-basis: 100%;
+    }
+
+    /****** End Blog Post Section *****/
+
+
+    /*****? Start FAQ Section *****/
+    .faq-mid {
+        margin: 0px 20px;
+    }
+
+    .faq-mid>h1 {
+        font-size: 20px;
+    }
+
+    .que-parts>.que>.question>p {
+        font-size: 15px;
+    }
+
+    /*****? End FAQ Section *****/
+
+
+
+    /*****& Start Subscribe Section *****/
+    .subscribe-mid {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px 20px;
+    }
+
+    .subscribe-mid>input {
+        width: 100%;
+        text-overflow: ellipsis;
+    }
+
+    /*****& End Subscribe Section *****/
+
+
+
+
+    /*****~ Start Footer Section *****/
+    .footer-mid {
+        margin: 0px 20px;
+        margin-top: 30px;
+    }
+
+    .review {
+        max-width: 90%;
+
+    }
+
+    .review>h1 {
+        font-size: 20px;
+    }
+
+    .footer-box-1 {
+        flex-basis: 100%;
+    }
+
+    .footer-box-1>h1 {
+        font-size: 15px;
+    }
+
+    .footer-box-1>ul>li>a {
+        font-size: 12px;
+    }
+
+    .copyright-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .accept>h1 {
+        font-size: 10px;
+    }
+
+    .accept>figure>img {
+        width: 30px;
+    }
+
+    .accept>figure:hover::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright>p {
+        font-size: 10px;
+    }
+
+    .follow {
+        gap: 15px;
+    }
+
+    .follow>h1 {
+        font-size: 10px;
+    }
+
+    /*****~ End Footer Section *****/
+}
