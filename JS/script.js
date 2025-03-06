@@ -48,14 +48,32 @@ question.forEach((currentElem, currentIndex)=>{
 
 
 // ! Start Sub Menu Show / Hide
-let mainmenu = document.querySelectorAll(".nav-link>ul>li>a");
-let submenu = document.querySelector(".sub-menu");
+let mainMenu = document.querySelectorAll(".nav-link>ul>li>a");
 
-mainmenu.forEach((curSubElem,curIndex)=>{
-    curSubElem.addEventListener("click", ()=>{
-        let submenubar = curSubElem.nextElementSibling;
-        submenubar.classList.toggle("active");
+mainMenu.forEach((currentElem, Index)=>{
+    currentElem.addEventListener("click", (event)=>{        
+        event.preventDefault();
+
+        console.log(mainMenu.lastchild);
         
+        let targetElem = document.getElementById(currentElem.dataset.target);
+
+            document.querySelectorAll(".sub-menus.active").forEach((menu)=>{
+                if(menu !== targetElem){
+                    menu.classList.remove("active");
+                };
+            });
+
+            if(targetElem){
+                targetElem.classList.toggle("active");
+
+                // if(mainMenu.lastElementChild.contains("fa-angle-down")){
+                //     mainMenu.lastElementChild.add("fa-angle-up");
+                // }
+            } 
+            
+            
     });
 });
+
 // ! End Sub Menu Show / Hide
