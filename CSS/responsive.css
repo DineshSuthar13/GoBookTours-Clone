@@ -359,6 +359,7 @@
     .nav-link>ul {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         gap: 20px;
         height: 100px;
         position: absolute;
@@ -380,10 +381,12 @@
 
     .show-modal {
         left: 0 !important;
+        overflow: scroll;
     }
 
     .nav-link>ul>li {
         display: flex;
+        height: auto;
     }
 
     .navbar-mid>.hamburgar>i {
@@ -404,6 +407,23 @@
         display: flex;
         z-index: 10;
         align-items: center;
+    }
+
+    .sub-menu {
+        width: 500px;
+        position: static;
+        top: 100%;
+        left: 50%;
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+    }
+
+    .sub-menu-box {
+        display: flex;
+        flex-direction: column;
     }
 
     /*****~ End Header Section *****/
