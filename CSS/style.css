@@ -69,6 +69,10 @@
 
 
 /*****? Start Sub Menu Section *****/
+.sub-menus {
+    display: none;
+}
+
 /*****~ Start Destinations Sub Menu Section *****/
 .sub-menu {
     position: absolute;
@@ -95,7 +99,6 @@
     -moz-transform: translateX(-50%) scaleY(0);
     -ms-transform: translateX(-50%) scaleY(0);
     -o-transform: translateX(-50%) scaleY(0);
-    /* display: none; */
 }
 
 .sub-menu>h1 {
@@ -222,7 +225,8 @@
     font-weight: 200;
 }
 
-.sub-menu.active {
+.destination.sub-menu.active {
+    display: block;
     transform: translateX(-50%) scaleY(1);
     -webkit-transform: translateX(-50%) scaleY(1);
     -moz-transform: translateX(-50%) scaleY(1);
@@ -264,7 +268,6 @@
     transform-origin: top;
     background-color: white;
     z-index: 9999;
-    /* display: none; */
 }
 
 .theme-sub-menu-col-1 {
@@ -283,7 +286,8 @@
     color: rgb(92, 28, 75);
 }
 
-.sub-menu.active {
+.themes.sub-menu.active {
+    display: block;
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
     -moz-transform: scaleY(1);
