@@ -48,16 +48,14 @@ question.forEach((currentElem, currentIndex)=>{
 
 
 // ! Start Sub Menu Show / Hide
-let submenu = document.querySelectorAll(".nav-link>ul>li>a");
+let mainmenu = document.querySelectorAll(".nav-link>ul>li>a");
+let submenu = document.querySelector(".sub-menu");
 
-submenu.forEach((curSubElem,curIndex)=>{
+mainmenu.forEach((curSubElem,curIndex)=>{
     curSubElem.addEventListener("click", ()=>{
-
+        let submenubar = curSubElem.nextElementSibling;
+        submenubar.classList.toggle("active");
         
-
-        submenu.forEach((Item, index)=>{
-            
-        });
     });
 });
 // ! End Sub Menu Show / Hide

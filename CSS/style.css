@@ -95,7 +95,7 @@
     -moz-transform: translateX(-50%) scaleY(0);
     -ms-transform: translateX(-50%) scaleY(0);
     -o-transform: translateX(-50%) scaleY(0);
-    display: none;
+    /* display: none; */
 }
 
 .sub-menu>h1 {
@@ -222,8 +222,12 @@
     font-weight: 200;
 }
 
-.destination-sub-menu {
+.sub-menu.active {
     transform: translateX(-50%) scaleY(1);
+    -webkit-transform: translateX(-50%) scaleY(1);
+    -moz-transform: translateX(-50%) scaleY(1);
+    -ms-transform: translateX(-50%) scaleY(1);
+    -o-transform: translateX(-50%) scaleY(1);
 }
 
 /*****~ End Destinations Sub Menu Section*****/
@@ -260,7 +264,7 @@
     transform-origin: top;
     background-color: white;
     z-index: 9999;
-    display: none;
+    /* display: none; */
 }
 
 .theme-sub-menu-col-1 {
@@ -279,7 +283,7 @@
     color: rgb(92, 28, 75);
 }
 
-.themes-sub-menu {
+.sub-menu.active {
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
     -moz-transform: scaleY(1);
@@ -1461,7 +1465,3 @@
 }
 
 /*****& End Footer Section *****/
-
-.show-modal {
-    display: none;
-}
