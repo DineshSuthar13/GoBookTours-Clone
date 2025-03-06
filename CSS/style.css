@@ -69,9 +69,6 @@
 
 
 /*****? Start Sub Menu Section *****/
-.sub-menus {
-    display: none;
-}
 
 /*****~ Start Destinations Sub Menu Section *****/
 .sub-menu {
@@ -226,7 +223,6 @@
 }
 
 #Destination.active {
-    display: block;
     transform: translateX(-50%) scaleY(1);
     -webkit-transform: translateX(-50%) scaleY(1);
     -moz-transform: translateX(-50%) scaleY(1);
@@ -287,7 +283,6 @@
 }
 
 #theme.active {
-    display: block;
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
     -moz-transform: scaleY(1);
