@@ -53,8 +53,6 @@ let mainMenu = document.querySelectorAll(".nav-link>ul>li>a");
 mainMenu.forEach((currentElem, Index)=>{
     currentElem.addEventListener("click", (event)=>{        
         event.preventDefault();
-
-        console.log(mainMenu.lastchild);
         
         let targetElem = document.getElementById(currentElem.dataset.target);
 
@@ -66,13 +64,7 @@ mainMenu.forEach((currentElem, Index)=>{
 
             if(targetElem){
                 targetElem.classList.toggle("active");
-
-                // if(mainMenu.lastElementChild.contains("fa-angle-down")){
-                //     mainMenu.lastElementChild.add("fa-angle-up");
-                // }
-            } 
-            
-            
+            }     
     });
 });
 
