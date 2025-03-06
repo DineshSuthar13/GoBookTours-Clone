@@ -225,7 +225,7 @@
     font-weight: 200;
 }
 
-.destination.sub-menu.active {
+#Destination.active {
     display: block;
     transform: translateX(-50%) scaleY(1);
     -webkit-transform: translateX(-50%) scaleY(1);
@@ -286,7 +286,7 @@
     color: rgb(92, 28, 75);
 }
 
-.themes.sub-menu.active {
+#theme.active {
     display: block;
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
